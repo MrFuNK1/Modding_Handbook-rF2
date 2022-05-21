@@ -15,6 +15,11 @@ Changelog
 
     FIX = something that was wrong has been fixed
 
+2022-05-21
+  **COR** Some formatting corrections in the vehicle creation pages.
+
+  **ADD** Introduction text added to the vehicles modding introduction page.
+
 2022-05-06
   **CHG** In prep for a first publication the Handbook's logo was changed to
   a neutral rF2 logo (no permission granted for the official logo yet), minor

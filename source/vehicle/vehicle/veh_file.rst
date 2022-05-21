@@ -27,131 +27,163 @@ with the new specified, for the track specified. The format is as follows:
 
 DefaultLivery
 	Example value:	"PREFIX"
+
 	PREFIX is the base texture map name, assumed to be BMP unless specified
 
 PitCrewLivery
 	Example value:	"PREFIX"
-	This is only needed if it differs from the default livery PREFIX
+
+  This is only needed if it differs from the default livery PREFIX
 
 TrackLivery
 	Example value:	"TRACK, PREFIX"
-	TRACK is the track name as defined in the event GDB
+
+  TRACK is the track name as defined in the event GDB
 
 TrackLivery
 	Example value:	"TRACK, PREFIX"
-	For example, "2001_Monza"
+
+  For example, "2001_Monza"
 
 TrackLivery
 	Example value:	"TRACK, PREFIX"
-	You can have an infinite # of these lines
+
+  You can have an infinite # of these lines
 
 DefaultLivery
 	Example	"SkipBarber_05.dds"
-	no description provided
+
+  *no description provided*
 
 HDVehicle
 	Example	SkipBarber\SkipBarber.hdv
-	no description provided
+
+  *no description provided*
 
 Graphics
 	Example	SkipBarber\SkipBarber.gen
-	no description provided
+
+  *no description provided*
 
 Spinner
 	Example	SkipBarber\SkipBarber_spinner.gen
-	no description provided
+
+  *no description provided*
 
 GenString
 	Example value:
-	Used to generate GMT names in \*.gen file
+
+  Used to generate GMT names in \*.gen file
 
 Sounds
 	Example value:	SkipBarber.sfx
-	no description provided
+
+  *no description provided*
 
 Cameras
 	Example value:	SkipBarber.cam
-	Defaults to default.cfg in UserData directory
+
+  Defaults to default.cfg in UserData directory
 
 HeadPhysics
 	Example value:	HeadPhysics.ini
-	Affects driver eyepoint only
+
+  Affects driver eyepoint only
 
 Cockpit
 	Example	SkipBarber_cockpitinfo.ini
-	no description provided
+
+  *no description provided*
 
 Upgrades
 	Example	SkipBarber_upgrades.ini
-	no description provided
+
+  *no description provided*
 
 AIUpgradeClass
 	Example	Skip_Barber_Regional
-	no description provided
+
+  *no description provided*
 
 Number
 	Example	05
-	no description provided
+
+  *no description provided*
 
 Team
 	Example	"ISI Racing School"
-	no description provided
+
+  *no description provided*
 
 PitGroup
 	Example	"Group1"
-	no description provided
+
+  *no description provided*
 
 Driver
 	Example	"Terence Calder"
-	no description provided
+
+  *no description provided*
 
 Description
 	Example	"SkipBarber #05"
-	no description provided
+
+  *no description provided*
 
 Engine
 	Example	"ISI"
-	no description provided
+
+  *no description provided*
 
 Manufacturer
 	Example	"ISI"
-	no description provided
+
+  *no description provided*
 
 Classes
 	Example	"Skip_Barber Skip_Barber_Regional"
-	no description provided
+
+  *no description provided*
 
 FullTeamName
 	Example	"ISI Racing School"
-	no description provided
+
+  *no description provided*
 
 TeamFounded
 	Example
-	no description provided
+
+  *no description provided*
 
 TeamHeadquarters
 	Example	""
-	no description provided
+
+  *no description provided*
 
 TeamStarts
 	Example	246
-	no description provided
+
+  *no description provided*
 
 TeamPoles
 	Example	81
-	no description provided
+
+  *no description provided*
 
 TeamWins
 	Example	83
-	no description provided
+
+  *no description provided*
 
 TeamWorldChampionships
 	Example	4
-	no description provided
+
+  *no description provided*
 
 Category
 	Example	"SkipBarber 2013"
-	no description provided
+
+  *no description provided*
 
 ********************
 Example file content
