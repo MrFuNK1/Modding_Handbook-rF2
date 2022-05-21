@@ -1,0 +1,193 @@
+body {
+	color: #1b1c1d;
+}
+a {
+  color: #f00;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:visited {
+	color: #f00;
+}
+a:hover {
+	color: #000;
+}
+::selection {
+  color: #000;
+  background: #fff000;
+}
+.wy-nav-side {
+	color: #fff;
+	background: #1b1c1d;
+}
+.wy-nav-top {
+	color: #fff;
+	background: #c00;
+}
+.wy-nav-top a{
+	color:#fff;
+	padding:10px;
+}
+.wy-nav-top a:visited{
+	color:#fff
+}
+.wy-nav-top a:hover{
+	color:#fff
+}
+.wy-nav-top > a:hover{
+	background: hsla(0,0%,100%,.1);
+}
+.wy-side-nav-search {
+  color: #000;
+  background: #c00;
+}
+.wy-side-nav-search input[type="text"] {
+	border-color: #c00;
+	border-radius: 8px;
+}
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+	color: #c00;
+	/*background-color: #202122;*/
+}
+.wy-menu-vertical a:hover {
+	color: #c00;
+	background-color: #fff;
+}
+.wy-menu-vertical a {
+	color: #fff;
+}
+.rst-content.style-external-links a.reference.external::after {
+	font-family: FontAwesome;
+	content: "\f08e";
+	color: #c00;
+	vertical-align: baseline;
+	font-size: 75%;
+	margin: 0.4em;
+}
+.rst-content.style-external-links a.reference.external.image-reference::after {
+	display: none;
+}
+/* From Blender Manual theme_overrides.css */
+/* Used with modifications */
+/* Start section description. */
+@media screen and (min-width: 450px){
+	.tocdescr {
+		display: flex; display: -webkit-flex;
+		flex-flow: row wrap; -webkit-flex-flow: row wrap;
+		justify-content: space-between; -webkit-justify-content: space-between;
+		align-items: flex-start; -webkit-align-items: flex-start;
+		align-content: flex-start; -webkit-align-content: flex-start;
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	/* Dan Andreasson on Stack Overflow. */
+	.tocdescr:after {
+		content: "";
+		flex: 1 0 33.3%; -webkit-flex: 1 0 33.3%;
+		margin-left: 45px;
+		align-self: stretch; -webkit-align-self: stretch;
+	}
+}
+@media screen and (max-width: 450px) {
+	.tocdescr {
+		display: flex; display: -webkit-flex;
+		flex-flow: column wrap; -webkit-flex-flow: column wrap;
+		justify-content: space-between; -webkit-justify-content: space-between;
+		align-items: flex-start; -webkit-align-items: flex-start;
+		align-content: flex-start; -webkit-align-content: flex-start;
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	.tocdescr:after {
+		content: "";
+		flex: none; -webkit-flex: none;
+	}
+}
+.descr {
+	flex: 2 0 33.3%; -webkit-flex: 2 0 33.3%;
+	margin: 10px 15px;
+	border-radius: 1px;
+	user-select: none;
+}
+.descr div.figure,
+.descr figure {
+	margin-bottom: 0px;
+	display: block;
+}
+.descr img {
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+}
+.descr dl {margin-bottom: 10px}
+.descr dl dt > a {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.descr dl dt a em, .descr dl dt a span{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.3em;
+}
+.descr dl dt{padding: 18px 15px 0px!important}
+.descr dl dd{
+	padding: 0px 15px;
+	font-style: normal;
+	margin: 0px;
+	color: #808080;
+	font-size: 90%;
+}
+.descr {
+	border: 1px solid rgba(0,0,0,.1);
+}
+#getting-started .descr {
+	box-shadow: none;
+}
+/* End section description. */
+/* End from Blender Manual theme_overrides.css */
+
+/* Start custom toctree. */
+.toctree-wrapper * a {
+	display: block;
+}
+.toctree-wrapper * ul {
+	padding-left: 1.2em;
+}
+.rst-content .toctree-wrapper ul li a:hover {color: #000}
+.rst-content .toctree-wrapper ul li a:visited:hover {color: #f00}
+.toctree-wrapper .toctree-l1 > a{font-size: 120%}
+.toctree-wrapper .toctree-l2 > a{font-size: 110%}
+.toctree-wrapper .toctree-l3 > a{font-size: 100%}
+.rst-content .toctree-wrapper ul li, .rst-content .toctree-wrapper ul li li , .rst-content .toctree-wrapper ul li li li {
+	list-style-type: none;
+	margin-left: 0px;
+}
+/* End custom toctree. */
+
+/* Start custom table of contents. */
+.contents * a {
+	display: block;
+}
+.contents * ul {
+	padding-left: 1em;
+}
+.rst-content .contents ul li a:hover {color: #000}
+.rst-content .contents ul li a:visited:hover {color: #f00}
+.rst-content .contents #id1.reference.internal > a{font-size: 120%}
+.rst-content .contents #id2.reference.internal > a{font-size: 110%}
+.rst-content .contents #id3.reference.internal > a{font-size: 100%}
+.rst-content .contents ul li, .rst-content .contents ul li li , .rst-content .contents ul li li li {
+	list-style-type: none;
+	margin-left: 0px;
+}
+/* End custom table of contents. */
+
+.rst-content table.docutils td:first-child,
+.rst-content table.docutils th:first-child,
+.rst-content table.field-list td:first-child,
+.rst-content table.field-list th:first-child,
+.wy-table td:first-child,
+.wy-table th:first-child {
+ 	border-left: 1px solid #e1e4e5
+}
