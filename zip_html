@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd build/html
+zip -r modding-handbook_rf2_html.zip * -x "*_raw_sources*"
+cd .. && cd ..
+mv -i build/html/modding-handbook_rf2_html.zip .

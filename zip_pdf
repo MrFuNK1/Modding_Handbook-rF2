@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd build/latex
+zip -r modding-handbook_rf2_pdf.zip moddinghandbookrfactor2.pdf
+cd .. && cd ..
+mv -i build/latex/modding-handbook_rf2_pdf.zip .

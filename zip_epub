@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd build/epub
+zip -r modding-handbook_rf2_epub.zip ModdingHandbookrFactor2.epub
+cd .. && cd ..
+mv -i build/epub/modding-handbook_rf2_epub.zip .
