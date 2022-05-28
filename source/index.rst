@@ -95,6 +95,14 @@ Vehicle Modding
     :doc:`vehicle/index-sounds`
       *put desc here*
 
+  .. container:: descr
+
+    .. figure:: _static/img/placeholder_600x120.png
+      :target: vehicle/index-other.html
+
+    :doc:`vehicle/index-other`
+      *put desc here*
+
 ****************
 Location Modding
 ****************
@@ -181,6 +189,7 @@ Imprint
   vehicle/index-physics
   vehicle/index-graphics
   vehicle/index-sounds
+  vehicle/index-other
 
 .. toctree::
   :caption: Location Modding

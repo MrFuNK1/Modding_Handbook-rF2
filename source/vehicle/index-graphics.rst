@@ -12,3 +12,4 @@ Graphics
   :maxdepth: 1
 
   graphics/veh_gen
+  graphics/cockpitinfo

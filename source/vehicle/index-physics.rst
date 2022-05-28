@@ -11,6 +11,7 @@ Physics
 .. toctree::
 	:maxdepth: 1
 
-	physics/hdv
-	physics/engine_ini
-	physics/tires_tbc_tgm
+  physics/hdv
+  physics/suspension_pm
+  physics/engine_ini
+  physics/tires_tbc_tgm

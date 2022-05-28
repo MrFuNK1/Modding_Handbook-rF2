@@ -2,16 +2,16 @@
 
   This page is WIP.
 
-#####
-Tires
-#####
-
 .. sidebar:: Source
 
   Source of the information and descriptions herein were extracted from
   "SkipBarber.tbc" and "BFGoodrich_g-ForceSport_195-55-R15x7.tgm" files of the
   SkipBarber that comes with the Dev Mode of rFactor2 game version v1121.
   Where necessary and available, information and descriptions were amended.
+
+#####
+Tires
+#####
 
 .. contents:: Contents
   :depth: 2
