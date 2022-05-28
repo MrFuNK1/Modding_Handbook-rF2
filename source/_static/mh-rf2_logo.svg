@@ -7,7 +7,7 @@
    viewBox="0 0 132.29167 42.333334"
    version="1.1"
    id="svg173567"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    sodipodi:docname="mh-rf2_logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -32,7 +32,17 @@
      inkscape:snap-global="true"
      inkscape:current-layer="layer1"
      inkscape:snap-bbox="false"
-     inkscape:snap-bbox-midpoints="true" />
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.566"
+     inkscape:cx="250.19486"
+     inkscape:cy="79.890881"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
   <defs
      id="defs173564" />
   <g
@@ -101,22 +111,23 @@
        style="font-size:15.2935px;line-height:1.25;font-family:'Franklin Gothic Medium Cond';-inkscape-font-specification:'Franklin Gothic Medium Cond';fill:#ffffff;stroke-width:0.264583"
        id="path856" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 78.012375,18.349028 V 45.985355"
        id="path173155"
        inkscape:export-filename="/home/sven/Dokumente/0 Modding Handbook - Assetto Corsa/inputs/logo_variant01.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:19.6426px;line-height:1.25;font-family:Lovelo;-inkscape-font-specification:'Lovelo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="106.58948"
-       y="39.289795"
-       id="text7057"><tspan
-         sodipodi:role="line"
-         id="tspan7055"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:19.6426px;font-family:Lovelo;-inkscape-font-specification:'Lovelo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
-         x="106.58948"
-         y="39.289795">RF2</tspan></text>
+    <path
+       d="m 92.533702,31.31958 q 1.160524,0 1.659262,-0.4316 0.508329,-0.4316 0.508329,-1.419485 0,-0.978293 -0.508329,-1.400302 -0.498738,-0.422009 -1.659262,-0.422009 h -1.553761 v 3.673396 z m -1.553761,2.551236 v 5.418979 H 87.287363 V 24.970263 h 5.639574 q 2.829379,0 4.143361,0.949521 1.323574,0.94952 1.323574,3.002018 0,1.419485 -0.690561,2.33064 -0.680969,0.911156 -2.062089,1.342756 0.757698,0.17264 1.352347,0.786471 0.60424,0.604241 1.218071,1.841494 l 2.00454,4.066632 h -3.932353 l -1.745583,-3.558303 q -0.527511,-1.074205 -1.074204,-1.46744 -0.537103,-0.393236 -1.438667,-0.393236 z"
+       style="font-weight:900;font-size:19.6426px;line-height:1.25;font-family:Lovelo;-inkscape-font-specification:'Lovelo, Heavy';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+       id="path128" />
+    <path
+       d="m 102.41255,24.970263 h 9.96516 v 2.791014 h -6.27258 v 2.66633 h 5.89853 v 2.791013 h -5.89853 v 6.071175 h -3.69258 z"
+       style="font-weight:900;font-size:19.6426px;line-height:1.25;font-family:Lovelo;-inkscape-font-specification:'Lovelo, Heavy';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+       id="path130" />
+    <path
+       d="m 119.68614,36.57551 h 6.30136 v 2.714285 H 115.58115 V 36.57551 l 5.22715,-4.613325 q 0.70015,-0.633014 1.03584,-1.237254 0.33569,-0.60424 0.33569,-1.256436 0,-1.007066 -0.68097,-1.620898 -0.67138,-0.613831 -1.79354,-0.613831 -0.8632,0 -1.88944,0.374053 -1.02625,0.364463 -2.19637,1.093387 v -3.145885 q 1.24684,-0.412418 2.46492,-0.623422 1.21807,-0.220596 2.38818,-0.220596 2.57042,0 3.98991,1.131752 1.42907,1.131751 1.42907,3.155476 0,1.170116 -0.60424,2.186774 -0.60424,1.007066 -2.54164,2.704693 z"
+       style="font-weight:900;font-size:19.6426px;line-height:1.25;font-family:Lovelo;-inkscape-font-specification:'Lovelo, Heavy';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+       id="path132" />
   </g>
 </svg>
