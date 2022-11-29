@@ -15,6 +15,14 @@ Changelog
 
     FIX = something that was wrong has been fixed
 
+2022-11-29
+  **CHG** Title of chapter in "High-Detail Vehicle - HDV" was "Sections of the HDV File"
+  and is changed to "HDV File Sections".
+
+  **ADD** Added a reminder to the beginning of the "High-Detail Vehicle - HDV"
+  sub-section "Suspension - [SUSPENSION]" that explains the relation between HDV,
+  PM, and graphical position of the wheels.
+
 2022-05-21
   **COR** Some formatting corrections in the vehicle creation pages.
 

@@ -2,16 +2,16 @@
 
   This page is WIP.
 
+#########################
+High-Detail Vehicle - HDV
+#########################
+
 .. sidebar:: Source
 
   Source of the information and descriptions herein were extracted from
   "skipbarber.hdv" file of the SkipBarber that comes with the Dev Mode
   of rFactor2 game version v1121. Where necessary and available, information and
   descriptions were amended.
-
-#########################
-High-Detail Vehicle - HDV
-#########################
 
 The High-Detail Vehicle (HDV) file, hereinafter referred to as the "HDV file",
 defines all the fine details of a vehicles's physic. All parameters included in
@@ -65,9 +65,9 @@ where the vehicle bottoms out.
 
 Aerodynamic variables: Downforce is negative lift
 
-************************
-Sections of the HDV File
-************************
+*****************
+HDV File Sections
+*****************
 
 .. note::	The HDV file has the following sections. Some of these sections are
   required others are optional. These details are provided at the beginning of
@@ -1201,6 +1201,12 @@ DiffuserOffsetZ
 
 Suspension - [SUSPENSION]
 =========================
+
+.. note:: Reminder: Pushrod connections are adjusted from the values in the HDV
+  based on the graphical location of the wheels. If the graphical location does not match
+  the physical location (found in a .pm file), then all suspension joints (including
+  the pushrods) are adjusted to match the graphical locations. Also the suspension
+  joints are adjusted after setting the camber, caster, and toe-in.
 
 UltraChassis
 	Example value:	SkipBarber_Chassis.ini

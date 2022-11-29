@@ -123,7 +123,7 @@ or
 
 `.. only:: builder_html and (not singlehtml)`
 
-Make everything indented afterwards only visible in the epub or singlehtml buld:
+Make everything indented afterwards only visible in the epub or singlehtml build:
 
 `.. only:: latex or epub or singlehtml`
 
