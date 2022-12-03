@@ -90,9 +90,17 @@ Vehicle Modding
   .. container:: descr
 
     .. figure:: _static/img/placeholder_600x120.png
-      :target: vehicle/index-sounds.html
+      :target: vehicle/index-effects.html
 
-    :doc:`vehicle/index-sounds`
+    :doc:`vehicle/index-effects`
+      *put desc here*
+
+  .. container:: descr
+
+    .. figure:: _static/img/placeholder_600x120.png
+      :target: vehicle/index-veh-creation.html
+
+    :doc:`vehicle/index-veh-creation`
       *put desc here*
 
   .. container:: descr
@@ -185,10 +193,10 @@ Imprint
   :hidden:
 
   vehicle/introduction
-  vehicle/index-vehicle
   vehicle/index-physics
   vehicle/index-graphics
-  vehicle/index-sounds
+  vehicle/index-effects
+  vehicle/index-veh-creation
   vehicle/index-other
 
 .. toctree::

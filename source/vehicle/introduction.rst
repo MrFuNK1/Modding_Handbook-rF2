@@ -26,13 +26,6 @@ Sections
 
 .. container:: tocdescr
 
-  .. container:: descr
-
-    .. figure:: img/placeholder_600x120.png
-      :target: vehicle/index-vehicle.html
-
-    :doc:`index-vehicle`
-        *put desc here*
 
   .. container:: descr
 
@@ -53,9 +46,25 @@ Sections
   .. container:: descr
 
     .. figure:: img/placeholder_600x120.png
-      :target: vehicle/index-sounds.html
+      :target: vehicle/index-effects.html
 
-    :doc:`index-sounds`
+    :doc:`index-effects`
+        *put desc here*
+
+  .. container:: descr
+
+    .. figure:: img/placeholder_600x120.png
+      :target: vehicle/index-veh-creation.html
+
+    :doc:`index-veh-creation`
+        *put desc here*
+
+  .. container:: descr
+
+    .. figure:: img/placeholder_600x120.png
+      :target: vehicle/index-other.html
+
+    :doc:`index-other`
         *put desc here*
 
 .. hidden toctree to resolve build warnings

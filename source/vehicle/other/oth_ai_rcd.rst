@@ -2,10 +2,6 @@
 
   This page is WIP.
 
-#####################
-RCD - AI Talent Files
-#####################
-
 .. sidebar:: Source
 
   Source of the information and descriptions herein were extracted from
@@ -13,7 +9,19 @@ RCD - AI Talent Files
   rFactor2 game version v1121. Where necessary and available, information
   and descriptions were amended.
 
+#####################
+RCD - AI Talent Files
+#####################
+
 The file defines the talent of AI drivers.
+
+.. contents:: Contents
+  :depth: 2
+  :local:
+
+*****************
+RCD File Contents
+*****************
 
 [vehicle_class]
   Example value:  Skip_Barber
@@ -187,3 +195,71 @@ MinRacingSkill
 	Example value:	90.0
 
   *no description provided*
+
+******************
+SkipBarber Example
+******************
+
+.. code-block::
+
+  Skip_Barber
+  {
+    default
+    {
+      StepDistance = 5.0
+      StepSpeed1 = 25.0
+      StepSpeed2 = 32.0
+      StepSpeed3 = 40.0
+      StepSpeed4 = 55.0
+      StepSpeed5 = 75.0
+      StepSpeed6 = 95.0
+      StepSpeed7 = 115.0
+      StepSpeed8 = 175.0
+      DrivingLine = OW3_FAST, rTrainer_Fast
+      CorneringCaution = 60
+      UnderSteerEffectOnThrottleMulti = 125
+      UnderSteerEffectOnLineMulti = 55
+    }
+    Eric Elliott
+    {
+      Nationality = American
+      DateofBirth = 26-2-1984
+      Starts = 0
+      Poles = 0
+      Wins = 0
+      DriversChampionships = 0
+      Aggression = 90.0
+      Reputation = 100.0
+      Courtesy = 95.0
+      Composure = 97.0
+      Speed = 100.0
+      QualifySpeed = 90.0
+      WetSpeed = 90.0
+      StartSkill = 115.0
+      Crash = 0.7
+      Recovery = 100.0
+      CompletedLaps = 100.0
+      MinRacingSkill = 90.0
+    }
+    Richard Chmielewski
+    {
+      Nationality = American
+      DateofBirth = 26-2-1984
+      Starts = 0
+      Poles = 0
+      Wins = 0
+      DriversChampionships = 0
+      Aggression = 90.0
+      Reputation = 100.0
+      Courtesy = 95.0
+      Composure = 95.0
+      Speed = 99.0
+      QualifySpeed = 93.0
+      WetSpeed = 95.0
+      StartSkill = 115.0
+      Crash = 0.2
+      Recovery = 98.0
+      CompletedLaps = 100.0
+      MinRacingSkill = 95.0
+    }
+  }

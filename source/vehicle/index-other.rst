@@ -9,6 +9,9 @@ Other
 #####
 
 .. toctree::
-	:maxdepth: 2
+  :maxdepth: 1
 
-	other/upgrades
+  other/oth_upgrades
+  other/oth_ai_rcd
+  other/oth_track_config
+  other/oth_default_setup

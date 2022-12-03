@@ -9,7 +9,7 @@ Physics
 #######
 
 .. toctree::
-	:maxdepth: 1
+  :maxdepth: 1
 
   physics/hdv
   physics/suspension_pm

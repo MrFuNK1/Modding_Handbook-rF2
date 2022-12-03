@@ -2,16 +2,16 @@
 
   This page is WIP.
 
-#########################
-High-Detail Vehicle - HDV
-#########################
-
 .. sidebar:: Source
 
   Source of the information and descriptions herein were extracted from
   "skipbarber.hdv" file of the SkipBarber that comes with the Dev Mode
   of rFactor2 game version v1121. Where necessary and available, information and
   descriptions were amended.
+
+#########################
+High-Detail Vehicle - HDV
+#########################
 
 The High-Detail Vehicle (HDV) file, hereinafter referred to as the "HDV file",
 defines all the fine details of a vehicles's physic. All parameters included in

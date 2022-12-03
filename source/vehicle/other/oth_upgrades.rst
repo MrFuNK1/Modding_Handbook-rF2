@@ -9,9 +9,9 @@
   of rFactor2 game version v1121. Where necessary and available, information and
   descriptions were amended.
 
-========
+########
 Upgrades
-========
+########
 
 .. contents:: Contents
   :depth: 2
@@ -119,7 +119,7 @@ BaseVehiclePrice
 Original Example
 ****************
 
-.. code-block:: c++
+.. code-block::
 
   UpgradeType="PARTS"
   {
@@ -150,7 +150,7 @@ Original Example
 SkipBarber Example
 ******************
 
-.. code-block:: c++
+.. code-block::
 
   UpgradeClass="Skip_Barber_Regional"
   {

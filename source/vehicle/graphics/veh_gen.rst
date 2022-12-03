@@ -13,6 +13,10 @@
 Vehicle Generation
 ##################
 
+.. contents:: Contents
+  :depth: 2
+  :local:
+
 ************
 Introduction
 ************
@@ -170,7 +174,6 @@ render the reflection of a vehicle. It is just one line in the GEN file but with
 this line, no reflection would be rendered.
 
 ReflectPlane
-
   Example value: (0.0, -1.0, 0.0, 0)
 
   Layer at which the vehicle is reflected.
@@ -187,6 +190,10 @@ multiple nested instances inside it, all with one or more mesh objects in them.
 Thereby the main instance always comes first and is defined as ``Instance=SLOT<ID>``.
 All nested instances follow the same principle but have default names or user-
 defined names assigned.
+
+.. note:: Please note that some default names are mandatory to appear in the
+  GEN file or the game might crash when the vehicle is loaded. Those names are
+  printed bold in the list below.
 
 Default instance names are:
 
@@ -213,10 +220,6 @@ Default instance names are:
 - BLGLODS
 - BLGLOPS
 - BACKFIRE
-
-.. note:: Please note that some default names are mandatory to appear in the
-  GEN file or the game might crash when the vehicle is loaded. Those names are
-  printed bold in the list above.
 
 File types inside an instance can be:
 

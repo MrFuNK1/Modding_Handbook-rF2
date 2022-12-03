@@ -109,6 +109,7 @@ a:hover {
 	margin: 10px 15px;
 	border-radius: 1px;
 	user-select: none;
+	max-width: 319px;
 }
 .descr div.figure,
 .descr figure {

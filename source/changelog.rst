@@ -15,6 +15,25 @@ Changelog
 
     FIX = something that was wrong has been fixed
 
+2022-12-03
+  **CHG** Finally created a new favicon for the manual.
+
+  **CHG** Again changed the structure of the Vehicle Modding section; It does
+  now have two new sections Effects (renamed Sounds section) and Other, with
+  the order slightly modified (hopefully that's actually a logical order).
+
+  **ADD** Empty pages added for: Graphics/Cameras, Effects/Sounds, Effects/Damage,
+  Vehicle Creation/Genstrings, Other/Track Configuration, Other Default Setups.
+
+  **COR** Some minor formatting corrections done to Vehicle Generation, VEH - Vehicle File,
+  and HDV page.
+
+  **ADD** Added table of contents to the Vehicle Generation and VEH - Vehicle File pages.
+
+  **CHG** Altered the structure of RCD - AI Talent Files page a little so it allows
+  for a table of contents. Also the Skip Barber RCD example was included as a new
+  sub-section.
+
 2022-11-29
   **CHG** Title of chapter in "High-Detail Vehicle - HDV" was "Sections of the HDV File"
   and is changed to "HDV File Sections".
@@ -22,6 +41,11 @@ Changelog
   **ADD** Added a reminder to the beginning of the "High-Detail Vehicle - HDV"
   sub-section "Suspension - [SUSPENSION]" that explains the relation between HDV,
   PM, and graphical position of the wheels.
+
+2022-09-17
+  **ADD** Added Cockpitinfo page to Vehicle/Graphics section.
+
+  **ADD** Added Upgrades page to new subsection Vehicle/Other.
 
 2022-05-21
   **COR** Some formatting corrections in the vehicle creation pages.

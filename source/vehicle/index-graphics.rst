@@ -13,3 +13,4 @@ Graphics
 
   graphics/veh_gen
   graphics/cockpitinfo
+  graphics/cameras

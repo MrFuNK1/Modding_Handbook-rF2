@@ -2,10 +2,6 @@
 
   This page is WIP.
 
-##################
-VEH - Vehicle File
-##################
-
 .. sidebar:: Source
 
   Source of the information and descriptions herein were extracted from
@@ -13,7 +9,15 @@ VEH - Vehicle File
   rFactor2 game version v1121. Where necessary and available, information
   and descriptions were amended.
 
+##################
+VEH - Vehicle File
+##################
+
 The file defines a vehicle, driver, and team.
+
+.. contents:: Contents
+  :depth: 2
+  :local:
 
 ***************
 VEH File Format
@@ -31,7 +35,7 @@ DefaultLivery
 	PREFIX is the base texture map name, assumed to be BMP unless specified
 
 PitCrewLivery
-	Example value:	"PREFIX"
+  Example value:	"PREFIX"
 
   This is only needed if it differs from the default livery PREFIX
 
@@ -41,147 +45,147 @@ TrackLivery
   TRACK is the track name as defined in the event GDB
 
 TrackLivery
-	Example value:	"TRACK, PREFIX"
+  Example value:	"TRACK, PREFIX"
 
   For example, "2001_Monza"
 
 TrackLivery
-	Example value:	"TRACK, PREFIX"
+  Example value:	"TRACK, PREFIX"
 
   You can have an infinite # of these lines
 
 DefaultLivery
-	Example	"SkipBarber_05.dds"
+  Example	"SkipBarber_05.dds"
 
   *no description provided*
 
 HDVehicle
-	Example	SkipBarber\SkipBarber.hdv
+  Example	SkipBarber\SkipBarber.hdv
 
   *no description provided*
 
 Graphics
-	Example	SkipBarber\SkipBarber.gen
+  Example	SkipBarber\SkipBarber.gen
 
   *no description provided*
 
 Spinner
-	Example	SkipBarber\SkipBarber_spinner.gen
+  Example	SkipBarber\SkipBarber_spinner.gen
 
   *no description provided*
 
 GenString
-	Example value:
+  Example value:
 
   Used to generate GMT names in \*.gen file
 
 Sounds
-	Example value:	SkipBarber.sfx
+  Example value:	SkipBarber.sfx
 
   *no description provided*
 
 Cameras
-	Example value:	SkipBarber.cam
+  Example value:	SkipBarber.cam
 
   Defaults to default.cfg in UserData directory
 
 HeadPhysics
-	Example value:	HeadPhysics.ini
+  Example value:	HeadPhysics.ini
 
   Affects driver eyepoint only
 
 Cockpit
-	Example	SkipBarber_cockpitinfo.ini
+  Example	value: SkipBarber_cockpitinfo.ini
 
   *no description provided*
 
 Upgrades
-	Example	SkipBarber_upgrades.ini
+  Example	value: SkipBarber_upgrades.ini
 
   *no description provided*
 
 AIUpgradeClass
-	Example	Skip_Barber_Regional
+  Example	value: Skip_Barber_Regional
 
   *no description provided*
 
 Number
-	Example	05
+  Example	value: 05
 
   *no description provided*
 
 Team
-	Example	"ISI Racing School"
+  Example	value: "ISI Racing School"
 
   *no description provided*
 
 PitGroup
-	Example	"Group1"
+  Example	value: "Group1"
 
   *no description provided*
 
 Driver
-	Example	"Terence Calder"
+  Example	value: "Terence Calder"
 
   *no description provided*
 
 Description
-	Example	"SkipBarber #05"
+  Example	value: "SkipBarber #05"
 
   *no description provided*
 
 Engine
-	Example	"ISI"
+  Example	value: "ISI"
 
   *no description provided*
 
 Manufacturer
-	Example	"ISI"
+  Example	value: "ISI"
 
   *no description provided*
 
 Classes
-	Example	"Skip_Barber Skip_Barber_Regional"
+  Example	value: "Skip_Barber Skip_Barber_Regional"
 
   *no description provided*
 
 FullTeamName
-	Example	"ISI Racing School"
+  Example	value: "ISI Racing School"
 
   *no description provided*
 
 TeamFounded
-	Example
+  Example	value: ""
 
   *no description provided*
 
 TeamHeadquarters
-	Example	""
+  Example	value: ""
 
   *no description provided*
 
 TeamStarts
-	Example	246
+  Example	value: 246
 
   *no description provided*
 
 TeamPoles
-	Example	81
+  Example	value: 81
 
   *no description provided*
 
 TeamWins
-	Example	83
+  Example	value: 83
 
   *no description provided*
 
 TeamWorldChampionships
-	Example	4
+  Example	value: 4
 
   *no description provided*
 
 Category
-	Example	"SkipBarber 2013"
+  Example	value: "SkipBarber 2013"
 
   *no description provided*
 
@@ -193,9 +197,9 @@ Example file content
 
     DefaultLivery="SkipBarber_05.dds"
 
-    HDVehicle=SkipBarber\\SkipBarber.hdv
-    Graphics=SkipBarber\\SkipBarber.gen
-    Spinner=SkipBarber\\SkipBarber_spinner.gen
+    HDVehicle=SkipBarber\SkipBarber.hdv
+    Graphics=SkipBarber\SkipBarber.gen
+    Spinner=SkipBarber\SkipBarber_spinner.gen
     GenString=
     Sounds=SkipBarber.sfx
     Cameras=SkipBarber.cam
