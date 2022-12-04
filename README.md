@@ -41,7 +41,44 @@ That should open the documentation in your default browser. You can run the `mak
 
 ## Linux
 
-TODO
+To avoid conflicts with existing Python packages, it's recommended to use a virtual environment.
+
+Install packages `python3` and `python3-env` from your package manager in case they're not already installed.
+
+Go to the folder where you've cloned the git repository and create the virtual enviroment with the following command:
+```
+python3 -m venv python-env
+```
+
+Activate the virtual environment with command:
+```
+source python-env/bin/activate
+```
+
+Notice the command prompt changes when the virtual environment is active to remind you Python commands are using this environment.
+
+You need to install the following packages:
+```
+pip install sphinx
+pip install sphinx-rtd-theme
+pip install sphinxprettysearchresults
+pip install readthedocs-sphinx-search
+```
+
+If that worked without generating any error messages then type:
+```
+make html
+```
+
+This will build the whole documentation into a subfolder called `build\html` so to read that type:
+```
+xdg-open build/html/index.html
+```
+
+Deactivate the virtual environment by closing the terminal or typing the command:
+```
+deactivate
+```
 
 ## Mac OS X
 
