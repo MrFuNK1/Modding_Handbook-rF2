@@ -13,5 +13,5 @@ Nothing here yet.
 .. toctree::
   :maxdepth: 1
 
-  effects/eff_sounds
   effects/eff_damage
+  effects/eff_sounds

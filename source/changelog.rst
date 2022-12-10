@@ -15,6 +15,11 @@ Changelog
 
     FIX = something that was wrong has been fixed
 
+2022-12-10
+  **ADD** Content added to pages "Damage" and "Sounds".
+
+  **CHG** Sorted section "Effects" alphabetically as there is no true order.
+
 2022-12-03
   **CHG** Finally created a new favicon for the manual.
 
