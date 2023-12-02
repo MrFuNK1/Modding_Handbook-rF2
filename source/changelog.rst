@@ -15,6 +15,29 @@ Changelog
 
     FIX = something that was wrong has been fixed
 
+2023-10-24
+  **CHG** Formatting of legacy contents completed for now.
+
+2023-10-23
+  **CHG** Increased the touch threshold for opening and closing the side menu
+  in mobile view.
+
+  **CHG** Formatting of legacy contents improved (started).
+
+  **CHG** Moved UI Editor information into the S397 Legacy Documentation section.
+
+2023-10-22
+  **ADD** Studio-397 legacy documentation added from the Developer Guide into
+  section Archive / Legacy Documentation / S397 Legacy Documentation
+
+  **CHG** Some minor formatting corrections. Started to format links to external
+  resources so that they open a new window/tab instead of opening in the same
+  window.
+
+  **ADD** Supporting touch gestures to open or closing the menu by wiping from
+  left to right and vice-versa. Made header sticky so that it stays visible on
+  small screens for easier navigation.
+
 2022-12-10
   **ADD** Content added to pages "Damage" and "Sounds".
 

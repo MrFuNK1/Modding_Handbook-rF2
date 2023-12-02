@@ -98,6 +98,14 @@ This is a hyperlink without text:
 
 This is an inline reference to a glossary term of :term:`Dev Mode`.
 
+.. The following will create a link in HTML that opens in a new window.
+
+|link|
+
+.. |link| raw:: html
+
+   <a href="http://" target="_blank">text here</a>
+
 Tables
 ======
 

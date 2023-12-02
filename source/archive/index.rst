@@ -8,3 +8,4 @@ Legacy Documentation
 	:maxdepth: 1
 
 	isi_mod_tut/index
+	S397_legacydoc/index

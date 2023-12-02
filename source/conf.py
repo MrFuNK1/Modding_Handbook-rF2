@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Modding Handbook - rFactor2'
-copyright = '2021 - 2022, FuNK!'
+copyright = '2021 - 2023, FuNK!'
 author = 'FuNK!'
 
 
@@ -29,7 +29,7 @@ author = 'FuNK!'
 # ones.
 extensions = [
     'sphinx_rtd_theme',
-    'sphinxprettysearchresults',
+    #'sphinxprettysearchresults', #disabled due to errors with current RTD Theme and Sphinx-Doc
     'sphinx.ext.mathjax',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
@@ -67,7 +67,7 @@ html_theme_options = {}
 # A list of paths that contain custom themes, either as subdirectories
 # or as zip files. Relative paths are taken as relative to
 # the configuration directory.
-html_theme_path = []
+html_theme_path = ['_themes']
 
 if html_theme == "sphinx_rtd_theme":
     html_theme_options = {
@@ -111,7 +111,8 @@ html_favicon = "_static/favicon.png"
 
 # path relative to _static
 if html_theme == "sphinx_rtd_theme":
-    html_css_files = ["css/theme_overrides.css",]
+    html_css_files = ['css/theme_overrides.css','css/custom.css']
+    html_js_files = ['js/touch.js','js/scroll-top.js']
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

@@ -1,0 +1,40 @@
+/* make the navigation bar sticky */
+.wy-nav-top {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.scroll-to-top {
+  /* set the position to fixed to keep the button in place */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* make the button visible only when the user scrolls down */
+  opacity: 0;
+  visibility: hidden;
+  /* add some padding and background color to the button */
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  /* add a transition effect to the opacity property */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.scroll-to-top i {
+  /* style the icon using FontAwesome */
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #fff;
+}
+
+.scroll-to-top:hover {
+  /* change the background color when the user hovers over the button */
+  background-color: #666;
+}
+
+.scroll-to-top.visible {
+  /* make the button visible when the user scrolls down */
+  opacity: 1;
+  visibility: visible;
+}

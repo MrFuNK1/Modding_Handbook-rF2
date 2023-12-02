@@ -1,3 +1,10 @@
+
+.. warning::
+
+  This section contains legacy information still valid for rFactor (first
+  released in 2007) and other games based on the same engine (i.e., gMotor2.0;
+  e.g., GTR, GT Legends, Race07).
+
 #############################
 rFactor Modding Documentation
 #############################
@@ -10,7 +17,9 @@ boxes. The below introduction was part of the original tutorial.
 
 ---------
 
-**Introduction**
+************
+Introduction
+************
 
 Welcome to the official rFactor modding tutorial. Here you will find
 in-depth explanations of new features available in rFactor. We have also
