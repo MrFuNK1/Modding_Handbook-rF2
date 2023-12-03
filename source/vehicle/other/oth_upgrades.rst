@@ -36,79 +36,79 @@ Upgrade Options
 ***************
 
 UpgradeType
-	Example value:	"PARTS"
+  Example value:	"PARTS"
 
-	Type of upgrade. This can be named anything.
+  Type of upgrade. This can be named anything.
 
 Instance
-	Example value:	"LVL1 Front Part"
+  Example value:	"LVL1 Front Part"
 
-	What instance in the GEN file to modify.
+  What instance in the GEN file to modify.
 
 UpgradeLevel
-	Example value:	"STOCK"
+  Example value:	"STOCK"
 
-	What level of upgrade.
+  What level of upgrade.
 
 GEN=<FPARTEXISTS>
-	Example value:	"//"
+  Example value:	"//"
 
   This replaces the token <FPARTEXISTS> with in the GEN to comment it out
 
 GEN
-	Example value:	<FPART>=
+  Example value:	<FPART>=
 
-	YOU need some definition here, even though it doesn't exist.
+  YOU need some definition here, even though it doesn't exist.
 
 UpgradeLevel
-	Example value:	"LVL2 Front Part"
+  Example value:	"LVL2 Front Part"
 
-	What level of upgrade.
+  What level of upgrade.
 
 Price
-	Example value: 1
+  Example value: 1
 
   This is to make sure UpgradeClass works correctly by giving this a price.
 
 GEN
-	Example value:	<RWINGEXISTS>=""
+  Example value:	<RWINGEXISTS>=""
 
-	This replaces the token <FPARTEXISTS> with nothing in the GEN. To uncomment it out.
+  This replaces the token <FPARTEXISTS> with nothing in the GEN. To uncomment it out.
 
 Description
-	Example value:	"Front Part lvl2"
+  Example value:	"Front Part lvl2"
 
-	This is the description that goes in the in-game menus.
+  This is the description that goes in the in-game menus.
 
 GEN
-	Example value:	<FPART>=FPART_lvl2.gmt
+  Example value:	<FPART>=FPART_lvl2.gmt
 
-	what GMT file replace that token (<RWING>) in the GEN File.
+  what GMT file replace that token (<RWING>) in the GEN File.
 
 SFX
-	Example value:
+  Example value:
 
-	You may override SFX file entries here
+  You may override SFX file entries here
 
 CPIT
-	Example value:
+  Example value:
 
-	You may override CockpitInfo.ini entries here
-
-HDV
-	Example value:	[General]
-
-	Section header.
+  You may override CockpitInfo.ini entries here
 
 HDV
-	Example value:	Mass=1000
+  Example value:	[General]
 
-	You may override HDV entries here under the section headers.
+  Section header.
 
 HDV
-	Example value:	Inertia\*=(1.1,1.2,1.3)
+  Example value:	Mass=1000
 
-	Accepted mathematical functions include (- / \* +).
+  You may override HDV entries here under the section headers.
+
+HDV
+  Example value:	Inertia\*=(1.1,1.2,1.3)
+
+  Accepted mathematical functions include (- / \* +).
 
 BaseVehiclePrice
   Example value:  0
@@ -119,7 +119,7 @@ BaseVehiclePrice
 Original Example
 ****************
 
-.. code-block::
+.. code-block:: text
 
   UpgradeType="PARTS"
   {

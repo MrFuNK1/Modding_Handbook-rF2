@@ -30,9 +30,9 @@ driver helmet, and pit crew. The second line will replace the default livery
 with the new specified, for the track specified. The format is as follows:
 
 DefaultLivery
-	Example value:	"PREFIX"
+  Example value:	"PREFIX"
 
-	PREFIX is the base texture map name, assumed to be BMP unless specified
+  PREFIX is the base texture map name, assumed to be BMP unless specified
 
 PitCrewLivery
   Example value:	"PREFIX"
@@ -40,7 +40,7 @@ PitCrewLivery
   This is only needed if it differs from the default livery PREFIX
 
 TrackLivery
-	Example value:	"TRACK, PREFIX"
+  Example value:	"TRACK, PREFIX"
 
   TRACK is the track name as defined in the event GDB
 
@@ -193,7 +193,7 @@ Category
 Example file content
 ********************
 
-.. code-block::
+.. code-block:: text
 
     DefaultLivery="SkipBarber_05.dds"
 

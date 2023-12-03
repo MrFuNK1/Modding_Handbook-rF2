@@ -137,7 +137,7 @@ SearchPath
 Search Path Example
 -------------------
 
-.. code-block::
+.. code-block:: text
 
   SearchPath=<VEHDIR>
   SearchPath=SkipBarber
@@ -161,7 +161,7 @@ MASFile
 MAS File Example
 ----------------
 
-.. code-block::
+.. code-block:: text
 
   MASFile=SkipBarber\skipbarber.mas
   MASFile=cmaps.mas
@@ -178,7 +178,7 @@ ReflectPlane
 
   Layer at which the vehicle is reflected.
 
-.. code-block::
+.. code-block:: text
 
   ReflectPlane=(0.0, -1.0, 0.0, 0)
 
